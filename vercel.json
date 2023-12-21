@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "nestjs-vercel",
+    "name": "nestjs-graphql",
     "builds": [
       {
         "src": "dist/main.js",
