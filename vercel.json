@@ -1,14 +1,16 @@
 {
+    "version": 2,
+    "name": "nestjs-vercel",
     "builds": [
       {
-        "src": "server.js",
+        "src": "dist/main.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "server.js"
+        "dest": "dist/main.js"
       }
     ]
   }
